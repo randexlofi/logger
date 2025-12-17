@@ -1,6 +1,6 @@
 # Logger
 
-You can use this logger for anything you want.
+You can use this logger for anything you want using logger.py!
 
 ## Usage
 
