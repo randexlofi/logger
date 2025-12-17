@@ -30,6 +30,8 @@ logger.separator(char='=', length=60) # Log a separator line (can add custom cha
 logger.close()
 ```
 ## Output
+This will be printed to the console if console=True in the logger initialization. Also it would be saved into the savefile selected on the initialization.
+
 ```
 [17-Dec-2025 10:46:10.504841] [INFO    ] This is an info message.
 [17-Dec-2025 10:46:10.505400] [WARNING ] This is a warning message.
