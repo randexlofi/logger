@@ -1,6 +1,6 @@
 # Logger
 
-You can use this logger for anything you want using logger.py!
+You can use this logger for anything you want.
 
 ## Usage
 
@@ -29,6 +29,21 @@ logger.separator(char='=', length=60) # Log a separator line (can add custom cha
 # close the logger file at the end of usage.
 logger.close()
 ```
+## Output
+```
+[17-Dec-2025 10:46:10.504841] [INFO    ] This is an info message.
+[17-Dec-2025 10:46:10.505400] [WARNING ] This is a warning message.
+[17-Dec-2025 10:46:10.505605] [ERROR   ] This is an error message.
+[17-Dec-2025 10:46:10.522572] [ERROR   ] An exception occurred.
+Traceback (most recent call last):
+  File "c:\logger.py", line 65, in main
+    1 / 0 # Example to raise an exception
+    ~~^~~
+ZeroDivisionError: division by zero
+
+============================================================
+```
+
 
 ## License
 
